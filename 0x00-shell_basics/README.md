@@ -6,3 +6,4 @@ A short description of each script:
 + 4-listmorefiles: Display current directory contents, including hidden files.
 + 5-listfilesdigitonly: Display current directory contents using a long format with user and group IDs displayed numerically and hidden files.
 + 6-firstdirectory: Creates a directory named holberton in the /tmp/ directory.
++ 7-movethatfile: Move the file betty from /tmp/ to /tmp/holberton.
