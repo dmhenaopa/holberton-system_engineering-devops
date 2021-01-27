@@ -7,3 +7,4 @@ A short description of each script:
 + 5-listfilesdigitonly: Display current directory contents using a long format with user and group IDs displayed numerically and hidden files.
 + 6-firstdirectory: Creates a directory named holberton in the /tmp/ directory.
 + 7-movethatfile: Move the file betty from /tmp/ to /tmp/holberton.
++ 8-firstdelete: Delete the file betty that is in /tmp/holberton/ directory.
