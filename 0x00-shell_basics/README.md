@@ -9,3 +9,4 @@ A short description of each script:
 + 7-movethatfile: Move the file betty from /tmp/ to /tmp/holberton.
 + 8-firstdelete: Delete the file betty that is in /tmp/holberton/ directory.
 + 9-firstdirdeletion: Delete the directory holberton that is in the /tmp directory.
++ 10-back: Changes the working directory to the previous one. 
