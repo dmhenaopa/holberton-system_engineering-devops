@@ -11,4 +11,5 @@ A short description of each script:
 + 9-firstdirdeletion: Delete the directory holberton that is in the /tmp directory.
 + 10-back: Changes the working directory to the previous one.
 + 11-lists: Lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
-+ 12-file_type: prints the type of the file named /tmp/iamafile. 
++ 12-file_type: prints the type of the file named /tmp/iamafile.
++ 13-symbolic_link: Create a symbolic link to /bin/ls, named __ls__, in the current working directory. 
