@@ -11,3 +11,4 @@ A short description of each script:
 + 9-John_Doe: Sets the mode of the file hello to -rwxr-x-wx.
 + 10-mirror_permissions: Sets the mode of the file hello the same as olleh mode.
 + 11-directories_permissions: Adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files doesn't be changed.
++ 12-directory_permissions: Creates a directory called dir_holberton with permissions 751 in the working directory.
