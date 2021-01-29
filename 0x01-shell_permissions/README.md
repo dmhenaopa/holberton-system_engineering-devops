@@ -13,3 +13,4 @@ A short description of each script:
 + 11-directories_permissions: Adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files doesn't be changed.
 + 12-directory_permissions: Creates a directory called dir_holberton with permissions 751 in the working directory.
 + 13-change_group: Changes the group owner to holberton for the file hello.
++ 14-change_owner_and_group: Changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
