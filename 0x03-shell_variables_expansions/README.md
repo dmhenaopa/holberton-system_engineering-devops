@@ -4,4 +4,6 @@ A short description of each script:
 + 2-path: Add /action to the PATH.
 + 3-paths: Counts the number of directories in the PATH.
 + 4-global_variables: Lists environment variables.
-+ 5-local_variables: Lists all local variables and environment variables, and functions. 
++ 5-local_variables: Lists all local variables and environment variables, and functions.
++ 6-create_local_variable: Creates a new local variable.
+ 
