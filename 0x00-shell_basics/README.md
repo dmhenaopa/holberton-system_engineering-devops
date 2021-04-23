@@ -1,5 +1,5 @@
 ## :pencil2: Shell basic commands
-Here a short description of each script:
+
 
 ### Usage:
 Verify that the files have execution permissions before being used! **If not, use the following command:**
@@ -7,6 +7,9 @@ Verify that the files have execution permissions before being used! **If not, us
     chmod u+x name_of_file ###To make the file executable
 
 In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
 
 
 + 0-current_working_directory: Prints the absolute path name of the current working directory. *Example:*
@@ -40,6 +43,6 @@ $
 + 17-tree: Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. *Example:*
 + 18-commas: Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first.  *Example:*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTAwNzc0NDcsMTQ2MzIxNTkwMiwxOT
-E0MTcyOTc0XX0=
+eyJoaXN0b3J5IjpbMTM2NDMyNDk2OCwxNDYzMjE1OTAyLDE5MT
+QxNzI5NzRdfQ==
 -->
