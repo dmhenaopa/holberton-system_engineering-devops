@@ -41,10 +41,10 @@ $
 + [13-symbolic_link](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/13-symbolic_link): Create a symbolic link to /bin/ls, named __ls__, in the current working directory. *Example:*
 + [14-copy_html](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/14-copy_html): Copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. *Example:*
 + [15-lets_move](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/15-lets_move): Moves all files beginning with an uppercase letter to the directory /tmp/u. *Example:*
-+ 16-clean_emacs: Deletes all files in the current working directory that end with the character ~. *Example:*
-+ 17-tree: Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. *Example:*
-+ 18-commas: Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first.  *Example:*
++ [16-clean_emacs](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/16-clean_emacs): Deletes all files in the current working directory that end with the character ~. *Example:*
++ [17-tree](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/17-tree): Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. *Example:*
++ [18-commas](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/18-commas): Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first.  *Example:*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM1MzE1NjIsLTM2ODA1NjYyNiwxND
-YzMjE1OTAyLDE5MTQxNzI5NzRdfQ==
+eyJoaXN0b3J5IjpbMjAxNjUwNzM1NCwtMzY4MDU2NjI2LDE0Nj
+MyMTU5MDIsMTkxNDE3Mjk3NF19
 -->
