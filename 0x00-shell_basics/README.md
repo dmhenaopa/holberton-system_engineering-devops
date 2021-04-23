@@ -37,10 +37,10 @@ $ pwd
 ```
 $ ./3-listfiles
 total 4
--rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
--rwxr-xr-x@ 1 sylvain staff 19 Jan 25 00:23 1-listit
--rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:29 2-bring_me_home
--rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
+-rwxr-xr-x@ 1 user staff 18 Jan 25 00:19 0-current_working_directory
+-rwxr-xr-x@ 1 user staff 19 Jan 25 00:23 1-listit
+-rwxr-xr-x@ 1 user staff 18 Jan 25 00:29 2-bring_me_home
+-rwxr-xr-x@ 1 user staff 18 Jan 25 00:39 3-listfiles
 $
 ```
 
@@ -60,6 +60,6 @@ $
 + [17-tree](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/17-tree): Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. *Example:*
 + [18-commas](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/18-commas): Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first.  *Example:*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwNjAyMzUyLC0zNjgwNTY2MjYsMTQ2Mz
-IxNTkwMiwxOTE0MTcyOTc0XX0=
+eyJoaXN0b3J5IjpbLTMzMzg2MzE1NCwtMzY4MDU2NjI2LDE0Nj
+MyMTU5MDIsMTkxNDE3Mjk3NF19
 -->
