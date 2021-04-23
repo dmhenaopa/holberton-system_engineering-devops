@@ -1,4 +1,4 @@
-## :pencil2: 
+## :pencil2: Shell basic commands
 Here a short description of each script:
 
 ### Usage:
@@ -10,7 +10,6 @@ $ ./0-current_working_directory
 /Users/holbertonschool/holbertonschool-sysadmin_devops/0x00-shell_basics
 $
 ```
-
 + 1-listit: Display the contents list of your current directory. *Example:*
 ```
 $ ./1-listit
@@ -19,10 +18,10 @@ Desktop Downloads   Library Music Public
 $
 ```
 + 2-bring_me_home: Changes the working directory to the users home directory. *Example:*
-+ 3-listfiles: Display current directory contents in a long format. *Usage:*
-+ 4-listmorefiles: Display current directory contents, including hidden files. *Usage:*
-+ 5-listfilesdigitonly: Display current directory contents using a long format with user and group IDs displayed numerically and hidden files. *Usage:*
-+ 6-firstdirectory: Creates a directory named holberton in the /tmp/ directory. *Usage:*
++ 3-listfiles: Display current directory contents in a long format. *Example:*
++ 4-listmorefiles: Display current directory contents, including hidden files. *Example:*
++ 5-listfilesdigitonly: Display current directory contents using a long format with user and group IDs displayed numerically and hidden files. *Example:*
++ 6-firstdirectory: Creates a directory named holberton in the /tmp/ directory. *Example:*
 + 7-movethatfile: Move the file betty from /tmp/ to /tmp/holberton. *Usage:*
 + 8-firstdelete: Delete the file betty that is in /tmp/holberton/ directory. *Usage:*
 + 9-firstdirdeletion: Delete the directory holberton that is in the /tmp directory. *Usage:*
@@ -36,6 +35,6 @@ $
 + 17-tree: Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. *Usage:*
 + 18-commas: Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first.  *Usage:*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMTQwMDQ3LDE0NjMyMTU5MDIsMTkxND
-E3Mjk3NF19
+eyJoaXN0b3J5IjpbMTMxNTg0NzA0MSwxNDYzMjE1OTAyLDE5MT
+QxNzI5NzRdfQ==
 -->
