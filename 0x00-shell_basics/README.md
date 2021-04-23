@@ -1,15 +1,24 @@
 ## :pencil2: 
 Here a short description of each script:
+
+### Usage:
+
+
 + 0-current_working_directory: Prints the absolute path name of the current working directory. *Example:*
-``````
+```
 $ ./0-current_working_directory
 /Users/holbertonschool/holbertonschool-sysadmin_devops/0x00-shell_basics
 $
-``````
+```
 
-+ 1-listit: Display the contents list of your current directory. *Usage:*
-
-+ 2-bring_me_home: Changes the working directory to the users home directory. *Usage:*
++ 1-listit: Display the contents list of your current directory. *Example:*
+```
+$ ./1-listit
+Applications    Documents   Dropbox Movies Pictures
+Desktop Downloads   Library Music Public
+$
+```
++ 2-bring_me_home: Changes the working directory to the users home directory. *Example:*
 + 3-listfiles: Display current directory contents in a long format. *Usage:*
 + 4-listmorefiles: Display current directory contents, including hidden files. *Usage:*
 + 5-listfilesdigitonly: Display current directory contents using a long format with user and group IDs displayed numerically and hidden files. *Usage:*
@@ -27,5 +36,6 @@ $
 + 17-tree: Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. *Usage:*
 + 18-commas: Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first.  *Usage:*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzIxNTkwMiwxOTE0MTcyOTc0XX0=
+eyJoaXN0b3J5IjpbNjUwMTQwMDQ3LDE0NjMyMTU5MDIsMTkxND
+E3Mjk3NF19
 -->
