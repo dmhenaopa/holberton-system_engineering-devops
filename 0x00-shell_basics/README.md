@@ -28,6 +28,11 @@ Desktop Downloads   Library Music Public
 $
 ```
 + [2-bring_me_home](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/2-bring_me_home): Changes the working directory to the users home directory. *Example:*
+```
+$ source ./2-bring_me_home
+$ pwd
+$ /home
+```
 + [3-listfiles](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/3-listfiles): Display current directory contents in a long format. *Example:*
 + [4-listmorefiles](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/4-listmorefiles): Display current directory contents, including hidden files. *Example:*
 + [5-listfilesdigitonly](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly): Display current directory contents using a long format with user and group IDs displayed numerically and hidden files. *Example:*
@@ -45,6 +50,6 @@ $
 + [17-tree](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/17-tree): Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. *Example:*
 + [18-commas](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/18-commas): Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first.  *Example:*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjUwNzM1NCwtMzY4MDU2NjI2LDE0Nj
-MyMTU5MDIsMTkxNDE3Mjk3NF19
+eyJoaXN0b3J5IjpbMTU5MTQyOTkzLC0zNjgwNTY2MjYsMTQ2Mz
+IxNTkwMiwxOTE0MTcyOTc0XX0=
 -->
