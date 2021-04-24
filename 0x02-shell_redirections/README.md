@@ -3,10 +3,7 @@ This folder contains some useful scripts with basis Shell commands to display a 
 
 | Scripts for |Commands used|
 |--|--|
-| Navigation | echo, cat, head, tail, find, wc, sort, uniq, grep, tr, rev, cut, pas | 
-| Looking around | ls, less, file |
-| Manipulating files | cp, mv, rm, mkdir|
-| Other commands | type, which, help, man |
+| Redirection and filter | echo, cat, head, tail, find, wc, sort, uniq, grep, tr, rev, cut, paswd | 
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
@@ -23,7 +20,7 @@ In all cases, all files, the way to execute them is by putting a period and a sl
 ### Executable files:
 
 Here a short description of each script:
-+ 0-hello_world: Prints "Hello, World".
++ [0-hello_world](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world): Prints "Hello, World".
 + 1-confused_smiley: Displays a confused smiley "(Ôo)'.
 + 2-hellofile: Display the content of the /etc/passwd file.
 + 3-twofiles: Display the content of /etc/passwd and /etc/hosts.
@@ -47,6 +44,6 @@ Here a short description of each script:
 + 21-reverse: Write a script that reverse its input.
 + 22-users_and_homes: Write a script that displays all users and their home directories, sorted by users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc1ODA4MDMsLTE0OTAwNjE0ODQsNT
-gwNTQ3OTY4XX0=
+eyJoaXN0b3J5IjpbLTY1ODUzODM4MSwtMTQ5MDA2MTQ4NCw1OD
+A1NDc5NjhdfQ==
 -->
