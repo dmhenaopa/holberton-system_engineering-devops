@@ -4,8 +4,8 @@
 |--|--|
 | Navigation | cd, pwd, ls | 
 | Looking around | ls, less, file |
-| Manipulating files | cp, m|
-|  |  |
+| Manipulating files | cp, mv, rm, mkdir|
+| Other commands | type, which, help, man |
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
@@ -43,7 +43,7 @@ Here a short description of each script:
 + [17-tree](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/17-tree): Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
 + [18-commas](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/18-commas): Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc1NzQxNDksMTIwOTY1Njc0NiwzNz
+eyJoaXN0b3J5IjpbLTE3Njk4MjE4MjksMTIwOTY1Njc0NiwzNz
 Y3MTYzNzEsLTM2ODA1NjYyNiwxNDYzMjE1OTAyLDE5MTQxNzI5
 NzRdfQ==
 -->
