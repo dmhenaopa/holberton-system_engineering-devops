@@ -36,14 +36,14 @@ Here a short description of each script:
 + [13-unique](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/13-unique): Takes a list of words as input and prints only words that appear exactly once. Input format: One line, one word. Output format: One line, one word. Words should be sorted.
 + [14-findthatword](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/14-findthatword): Display lines containing the pattern "root" from the file /etc/passwd.
 + [15-countthatword](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/15-countthatword): Display the number of lines that contain the pattern "bin" in the file /etc/passwd.
-+ 16-whatsnext: Display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd.
-+ 17-hidethisword: Display all the lines in the file /etc/passwd that do not contain the pattern "bin".
-+ 18-letteronly: Display all lines of the file /etc/ssh/sshd_config starting with a letter, include capital letters as well.
-+ 19-AZ: Replace all characters A and c from input to Z and e respectively.
-+ 20-hiago: Create a script that removes all letters c and C from input.
-+ 21-reverse: Write a script that reverse its input.
-+ 22-users_and_homes: Write a script that displays all users and their home directories, sorted by users.
++ [16-whatsnext](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/16-whatsnext): Display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd.
++ [17-hidethisword](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/17-hidethisword): Display all the lines in the file /etc/passwd that do not contain the pattern "bin".
++ [18-letteronly](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/18-letteronly): Display all lines of the file /etc/ssh/sshd_config starting with a letter, include capital letters as well.
++ [19-AZ](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/19-AZ): Replace all characters A and c from input to Z and e respectively.
++ [20-hiago](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/20-hiago): Create a script that removes all letters c and C from input.
++ [21-reverse](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/21-reverse): Write a script that reverse its input.
++ [22-users_and_homes](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/22-users_and_homes): Write a script that displays all users and their home directories, sorted by users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4OTE1OTQ0LC0xNDkwMDYxNDg0LDU4MD
-U0Nzk2OF19
+eyJoaXN0b3J5IjpbMTc3MzA0OTA0MiwtMTQ5MDA2MTQ4NCw1OD
+A1NDc5NjhdfQ==
 -->
