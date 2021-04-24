@@ -3,7 +3,7 @@ This folder contains some useful scripts with basic Shell commands to. Some of t
 
 | Scripts for |Commands used|
 |--|--|
-| Navigation | cd, pwd, ls | 
+| Obtain and set environment variables | printenv, set, unset, export | 
 | Looking around | ls, less, file |
 | Manipulating files | cp, mv, rm, mkdir|
 | Other commands | type, which, help, man |
@@ -40,6 +40,6 @@ Here a short description of each script:
 + 13-print_float: rints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 + 14-decimal_to_hexadecimal: Converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL. The script should display the number in base 16, followed by a new line. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mjk5OTMzOCwxNDcwMTgwOTU3LC00MD
-QxODY5NDgsLTExODgxOTI4MTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MzM5MzYzMzQsMTQ3MDE4MDk1NywtND
+A0MTg2OTQ4LC0xMTg4MTkyODE0XX0=
 -->
