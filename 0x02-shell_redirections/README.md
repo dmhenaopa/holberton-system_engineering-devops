@@ -21,13 +21,13 @@ In all cases, all files, the way to execute them is by putting a period and a sl
 
 Here a short description of each script:
 + [0-hello_world](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world): Prints "Hello, World".
-+ 1-confused_smiley: Displays a confused smiley "(Ôo)'.
-+ 2-hellofile: Display the content of the /etc/passwd file.
-+ 3-twofiles: Display the content of /etc/passwd and /etc/hosts.
-+ 4-lastlines: Display the last 10 lines of /etc/passwd.
-+ 5-firstlines: Display the first 10 lines of /etc/passwd.
-+ 6-third_line: Displays the third line of the file iacta -> "Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius".
-+ 7-file: Write a shell script that creates a file named exactly as the name contained in the script file: and containing the text Holberton School ending by a new line.
++ [1-confused_smiley](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/1-confused_smiley): Displays a confused smiley "(Ôo)'.
++ [2-hellofile](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/2-hellofile): Display the content of the /etc/passwd file.
++ [3-twofiles](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/3-twofiles): Display the content of /etc/passwd and /etc/hosts.
++ [4-lastlines](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/4-lastlines): Display the last 10 lines of /etc/passwd.
++ [5-firstlines](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/5-firstlines): Display the first 10 lines of /etc/passwd.
++ [6-third_line](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/6-third_line): Displays the third line of the file iacta -> "Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius".
++ [7-file](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/7-file): Write a shell script that creates a file named exactly as the name contained in the script file: and containing the text Holberton School ending by a new line.
 + 8-cwd_state: Writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
 + 9-duplicate_last_line: Write a script that duplicates the last line of the file iacta.
 + 10-no_more_js: Deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
@@ -44,6 +44,6 @@ Here a short description of each script:
 + 21-reverse: Write a script that reverse its input.
 + 22-users_and_homes: Write a script that displays all users and their home directories, sorted by users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODUzODM4MSwtMTQ5MDA2MTQ4NCw1OD
-A1NDc5NjhdfQ==
+eyJoaXN0b3J5IjpbMTE4NDMyMTQyLC0xNDkwMDYxNDg0LDU4MD
+U0Nzk2OF19
 -->
