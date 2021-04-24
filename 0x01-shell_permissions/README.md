@@ -3,7 +3,7 @@ This folder contains some useful scripts with basis Shell commands to understand
 
 | Scripts for |Commands used|
 |--|--|
-| Navigation | cd, pwd, ls | 
+| Give or remove permissions | chmod, su, sudo, chown, chgrp | 
 | Looking around | ls, less, file |
 | Manipulating files | cp, mv, rm, mkdir|
 | Other commands | type, which, help, man |
@@ -42,5 +42,5 @@ Here a short description of each script:
 + 15-symbolic_link_permissions: Changes the owner and the group owner of the file _hello to betty and holberton respectively.
 + 16-if_only: Changes the owner of the file hello to betty only if it is owned by the user guillaume.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTEwNDMxNCw3OTA3MjM1MzhdfQ==
+eyJoaXN0b3J5IjpbLTgxMTkwMzUwMCw3OTA3MjM1MzhdfQ==
 -->
