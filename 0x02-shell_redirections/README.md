@@ -1,5 +1,5 @@
 ## :pencil2: Shell I/O redirections and filters
-This folder contains some useful scripts with basis Shell commands to display a line or more of text, how to concatenate files and print on the standard output, how to reverse a string, how to remove sections from each line o. Some of the commands used in this scripts:
+This folder contains some useful scripts with basis Shell commands to display a line or more of text, how to redirect standard output to a file, how to get standard input from a file, how to concatenate files and print on the standard output, how to reverse a string, how to remove sections from each line of files, how to send the output from one program to the input of another. Some of the commands used in this scripts:
 
 | Scripts for |Commands used|
 |--|--|
@@ -47,5 +47,5 @@ Here a short description of each script:
 + 21-reverse: Write a script that reverse its input.
 + 22-users_and_homes: Write a script that displays all users and their home directories, sorted by users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQwMDU1ODcsNTgwNTQ3OTY4XX0=
+eyJoaXN0b3J5IjpbNjM0NzkwNTg3LDU4MDU0Nzk2OF19
 -->
