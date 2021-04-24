@@ -1,6 +1,21 @@
 ## :pencil2: Shell permissions
 
-A short description of each script:
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
+
 + 0-iam_betty: Changes your user ID to betty.
 + 1-who_am_i: Prints the effective userid of the current user.
 + 2-groups: Prints all the groups the current user is part of.
@@ -19,5 +34,5 @@ A short description of each script:
 + 15-symbolic_link_permissions: Changes the owner and the group owner of the file _hello to betty and holberton respectively.
 + 16-if_only: Changes the owner of the file hello to betty only if it is owned by the user guillaume.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODQ3NTQzMSw3OTA3MjM1MzhdfQ==
+eyJoaXN0b3J5IjpbNTE0NzUxNTc2LDc5MDcyMzUzOF19
 -->
