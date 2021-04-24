@@ -3,7 +3,7 @@ This folder contains some useful scripts with basis Shell commands to display a 
 
 | Scripts for |Commands used|
 |--|--|
-| Redirection and filter | echo, cat, head, tail, find, wc, sort, uniq, grep, tr, rev, cut, paswd | 
+| Redirect and filter | echo, cat, head, tail, find, wc, sort, uniq, grep, tr, rev, cut, paswd | 
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
@@ -44,6 +44,6 @@ Here a short description of each script:
 + [21-reverse](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/21-reverse): Write a script that reverse its input.
 + [22-users_and_homes](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/22-users_and_homes): Write a script that displays all users and their home directories, sorted by users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzA0OTA0MiwtMTQ5MDA2MTQ4NCw1OD
-A1NDc5NjhdfQ==
+eyJoaXN0b3J5IjpbMTI3NjY0NDU5NCwxNzczMDQ5MDQyLC0xND
+kwMDYxNDg0LDU4MDU0Nzk2OF19
 -->
