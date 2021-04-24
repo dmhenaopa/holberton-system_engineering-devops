@@ -4,8 +4,7 @@ This folder contains some useful scripts with basic Shell commands to. Some of t
 | Scripts for |Commands used|
 |--|--|
 | Obtain and set environment variables | printenv, set, unset, export | 
-| Looking around | ls, less, file |
-| Shortcut to reference a command | cp, mv, rm, mkdir|
+| Replace/modificate a command | alias, unalias|
 | Other commands | type, which, help, man |
 
 ### Requirements:
@@ -40,6 +39,6 @@ Here a short description of each script:
 + 13-print_float: rints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 + 14-decimal_to_hexadecimal: Converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL. The script should display the number in base 16, followed by a new line. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA3NjkzNjYsLTE4MzM5MzYzMzQsMT
+eyJoaXN0b3J5IjpbLTEzNDg1NTc3NzksLTE4MzM5MzYzMzQsMT
 Q3MDE4MDk1NywtNDA0MTg2OTQ4LC0xMTg4MTkyODE0XX0=
 -->
