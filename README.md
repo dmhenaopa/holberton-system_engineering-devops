@@ -1,6 +1,6 @@
 ## :rocket: System engineering & DevOps - Bash
 
-Some basic scripts to use in shell
+In this repository we have some basic scripts to use in shell. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTk0NDM3OV19
+eyJoaXN0b3J5IjpbMTgzNTE5ODk1OF19
 -->
