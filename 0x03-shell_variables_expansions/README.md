@@ -1,4 +1,29 @@
-A short description of each script:
+## :pencil2: Shell 
+This folder contains some useful scripts with basis Shell commands to navigate the filesystem, change directories, list the files (incluided hidden files), use of arguments with the commands, manipulate files and search information about the usage of some of this commands. Some of the commands used in this scripts:
+
+| Scripts for |Commands used|
+|--|--|
+| Navigation | cd, pwd, ls | 
+| Looking around | ls, less, file |
+| Manipulating files | cp, mv, rm, mkdir|
+| Other commands | type, which, help, man |
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
+
 + 0-alias: Create a script that creates an alias.
 + 1-hello_you: Prints hello user, where user is the current Linux user.
 + 2-path: Add /action to the PATH.
@@ -15,5 +40,5 @@ A short description of each script:
 + 13-print_float: rints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 + 14-decimal_to_hexadecimal: Converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL. The script should display the number in base 16, followed by a new line. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODgxOTI4MTRdfQ==
+eyJoaXN0b3J5IjpbLTQwNDE4Njk0OCwtMTE4ODE5MjgxNF19
 -->
