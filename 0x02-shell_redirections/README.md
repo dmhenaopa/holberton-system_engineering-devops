@@ -1,4 +1,28 @@
-A short description of each script:
+## :pencil2: Shell I/O redirections and filters
+This folder contains some useful scripts with basis Shell commands to navigate the filesystem, change directories, list the files (incluided hidden files), use of arguments with the commands, manipulate files and search information about the usage of some of this commands. Some of the commands used in this scripts:
+
+| Scripts for |Commands used|
+|--|--|
+| Navigation | cd, pwd, ls | 
+| Looking around | ls, less, file |
+| Manipulating files | cp, mv, rm, mkdir|
+| Other commands | type, which, help, man |
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
 + 0-hello_world: Prints "Hello, World".
 + 1-confused_smiley: Displays a confused smiley "(Ôo)'.
 + 2-hellofile: Display the content of the /etc/passwd file.
@@ -23,5 +47,5 @@ A short description of each script:
 + 21-reverse: Write a script that reverse its input.
 + 22-users_and_homes: Write a script that displays all users and their home directories, sorted by users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNTQ3OTY4XX0=
+eyJoaXN0b3J5IjpbLTE3MzMzMjA3Miw1ODA1NDc5NjhdfQ==
 -->
