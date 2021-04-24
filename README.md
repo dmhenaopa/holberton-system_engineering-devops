@@ -1,6 +1,10 @@
 ## :rocket: System engineering & DevOps - Bash
 
-In this repository we have some basic scripts to use in shell related with the use of some commands to manipulate files, look around, explore and navigate the filesystem. Also, we work with commands to change permissions, set environment variables and redirec
+In this repository we have some basic scripts to use in shell related with the use of some commands to manipulate files, look around, explore and navigate the filesystem. Also, we work with commands to change permissions, set environment variables, redirect and filter standard input and output. This repository contains the following projects:
+
+ - [0x00-shell_basics](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x00-shell_basics):
+ -
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTYxOTU3ODVdfQ==
+eyJoaXN0b3J5IjpbLTExNjgxNjkzMDRdfQ==
 -->
