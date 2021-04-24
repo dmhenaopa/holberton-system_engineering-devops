@@ -1,5 +1,5 @@
 ## :pencil2: Shell basic commands
-This folder contains some useful scripts with basis Shell commands to navigate the filesystem, change directories, list the files (incluided hidden files), use of arguments with the commands, manipulate files and search information about the usage of some of this commands. Som 
+This folder contains some useful scripts with basis Shell commands to navigate the filesystem, change directories, list the files (incluided hidden files), use of arguments with the commands, manipulate files and search information about the usage of some of this commands. Some of the commands used in this scripts:
 
 | Scripts for |Commands used|
 |--|--|
@@ -44,7 +44,7 @@ Here a short description of each script:
 + [17-tree](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/17-tree): Creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
 + [18-commas](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x00-shell_basics/18-commas): Command that lists all the files and directories of the current directory, separated by commas (,). Directory names should end with a slash (/). Files and directories starting with a dot (.) should be listed. The listing should be alpha ordered, except for the directories (.) and (..) which should be listed at the very beginning. Only digits and letters are used to sort; Digits should come first. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzkyNzE4MywtMTc2OTgyMTgyOSwxMj
-A5NjU2NzQ2LDM3NjcxNjM3MSwtMzY4MDU2NjI2LDE0NjMyMTU5
-MDIsMTkxNDE3Mjk3NF19
+eyJoaXN0b3J5IjpbOTI2NjQxODM4LC0xNzY5ODIxODI5LDEyMD
+k2NTY3NDYsMzc2NzE2MzcxLC0zNjgwNTY2MjYsMTQ2MzIxNTkw
+MiwxOTE0MTcyOTc0XX0=
 -->
