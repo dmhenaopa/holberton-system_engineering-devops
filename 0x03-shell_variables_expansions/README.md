@@ -1,5 +1,5 @@
 ## :pencil2: Shell init files, variables and expansions
-This folder contains some useful scripts with basic Shell commands to create an alias, execute commands, perform arithmetic operations with the shell, how to use expansions, create/update/delete . Some of the commands used in this scripts:
+This folder contains some useful scripts with basic shell commands to create an alias, execute commands, perform arithmetic operations with the shell, how to use expansions, create/update/delete shell variables. Some of the commands used in this scripts:
 
 | Scripts for |Commands used|
 |--|--|
@@ -40,6 +40,6 @@ Here a short description of each script:
 + 13-print_float: rints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 + 14-decimal_to_hexadecimal: Converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL. The script should display the number in base 16, followed by a new line. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU3MTk1MzMsLTE4MzM5MzYzMzQsMT
+eyJoaXN0b3J5IjpbLTE0NzE3MTkxMjYsLTE4MzM5MzYzMzQsMT
 Q3MDE4MDk1NywtNDA0MTg2OTQ4LC0xMTg4MTkyODE0XX0=
 -->
