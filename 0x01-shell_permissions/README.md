@@ -1,5 +1,5 @@
 ## :pencil2: Shell permissions
-This folder contains some useful scripts with basis Shell commands to understand the multi-usesr capability of Unix-like sys Some of the commands used in this scripts:
+This folder contains some useful scripts with basis Shell commands to understand the multi-users capability of Unix-like systems and how can we protect an user files from each other user. Some of the commands used in this scripts:
 
 | Scripts for |Commands used|
 |--|--|
@@ -42,5 +42,5 @@ Here a short description of each script:
 + 15-symbolic_link_permissions: Changes the owner and the group owner of the file _hello to betty and holberton respectively.
 + 16-if_only: Changes the owner of the file hello to betty only if it is owned by the user guillaume.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDY3MzY0Miw3OTA3MjM1MzhdfQ==
+eyJoaXN0b3J5IjpbLTUxMTEwNDMxNCw3OTA3MjM1MzhdfQ==
 -->
