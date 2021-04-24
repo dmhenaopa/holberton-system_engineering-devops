@@ -21,8 +21,8 @@ In all cases, all files, the way to execute them is by putting a period and a sl
 
 Here a short description of each script:
 
-+ 0-iam_betty: Changes your user ID to betty.
-+ 1-who_am_i: Prints the effective userid of the current user.
++ [0-iam_betty](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty): Changes your user ID to betty.
++ [1-who_am_i:](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/1-who_am_i) Prints the effective userid of the current user.
 + 2-groups: Prints all the groups the current user is part of.
 + 3-new_owner: Changes the owner of the file hello to the user betty.
 + 4-empty: Creates an empty file called hello.
@@ -39,5 +39,5 @@ Here a short description of each script:
 + 15-symbolic_link_permissions: Changes the owner and the group owner of the file _hello to betty and holberton respectively.
 + 16-if_only: Changes the owner of the file hello to betty only if it is owned by the user guillaume.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQzNzUzODAsNzkwNzIzNTM4XX0=
+eyJoaXN0b3J5IjpbMTY0Mzc4NDc0LDc5MDcyMzUzOF19
 -->
