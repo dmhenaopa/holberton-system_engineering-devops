@@ -3,10 +3,7 @@ This folder contains some useful scripts with basis Shell commands to understand
 
 | Scripts for |Commands used|
 |--|--|
-| Give or remove permissions | chmod, su, sudo, chown, chgrp | 
-| Looking around | ls, less, file |
-| Manipulating files | cp, mv, rm, mkdir|
-| Other commands | type, which, help, man |
+| Give, remove or identify permissions | chmod, su, sudo, chown, chgrp, id, groups, whoami, adduser, useradd, addgroup |
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
@@ -42,5 +39,5 @@ Here a short description of each script:
 + 15-symbolic_link_permissions: Changes the owner and the group owner of the file _hello to betty and holberton respectively.
 + 16-if_only: Changes the owner of the file hello to betty only if it is owned by the user guillaume.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTkwMzUwMCw3OTA3MjM1MzhdfQ==
+eyJoaXN0b3J5IjpbLTEzOTQzNzUzODAsNzkwNzIzNTM4XX0=
 -->
