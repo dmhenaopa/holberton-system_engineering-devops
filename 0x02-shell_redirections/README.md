@@ -3,7 +3,7 @@ This folder contains some useful scripts with basis Shell commands to display a 
 
 | Scripts for |Commands used|
 |--|--|
-| Navigation | cd, pwd, ls | 
+| Navigation | echo, cat, head, tail, find, wc, sort, uniq, grep, tr, rev, cut, pas | 
 | Looking around | ls, less, file |
 | Manipulating files | cp, mv, rm, mkdir|
 | Other commands | type, which, help, man |
@@ -47,5 +47,6 @@ Here a short description of each script:
 + 21-reverse: Write a script that reverse its input.
 + 22-users_and_homes: Write a script that displays all users and their home directories, sorted by users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAwNjE0ODQsNTgwNTQ3OTY4XX0=
+eyJoaXN0b3J5IjpbLTE0MTc1ODA4MDMsLTE0OTAwNjE0ODQsNT
+gwNTQ3OTY4XX0=
 -->
