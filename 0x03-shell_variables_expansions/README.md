@@ -38,8 +38,8 @@ Here a short description of each script:
 + [11-binary_to_decimal](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x03-shell_variables_expansions/11-binary_to_decimal): Write a script that converts a number from base 2 to base 10. The number in base 2 is stored in the environment variable BINARY.
 + [12-combinations](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x03-shell_variables_expansions/12-combinations): Prints all possible combinations of two letters, except oo. Letters are lower cases, from a to z. One combination per line. The output should be alpha ordered, starting with aa Your script file should contain maximum 64 characters.
 + [13-print_float](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x03-shell_variables_expansions/13-print_float): rints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
-+ 14-decimal_to_hexadecimal: Converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL. The script should display the number in base 16, followed by a new line. 
++ [14-decimal_to_hexadecimal](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x03-shell_variables_expansions/14-decimal_to_hexadecimal): Converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL. The script should display the number in base 16, followed by a new line. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQyODE3OTMsLTE4MzM5MzYzMzQsMT
-Q3MDE4MDk1NywtNDA0MTg2OTQ4LC0xMTg4MTkyODE0XX0=
+eyJoaXN0b3J5IjpbMjEwMzA4MjkwMiwtMTgzMzkzNjMzNCwxND
+cwMTgwOTU3LC00MDQxODY5NDgsLTExODgxOTI4MTRdfQ==
 -->
