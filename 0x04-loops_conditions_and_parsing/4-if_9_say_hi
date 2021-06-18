@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script displaying Holberton School but for the 9th iteration, displays Holberton School and then Hi on a new line.
+
+i=0
+max=10
+while [ $i -lt $max ]; do
+	echo "Holberton School"
+	i=$((i + 1))
+	if [ $i == 9 ]; then
+		echo "Hi"
+	fi
+done
