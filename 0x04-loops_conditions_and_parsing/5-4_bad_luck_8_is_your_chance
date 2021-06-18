@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script loops from 1 to 10 and: displays bad luck for the 4th iteration, good luck for the 8 iteration and Holberton School for the other iterations
+
+i=0
+max=10
+while [ $i -lt $max ]; do
+	if [ $i == 3 ]; then
+		echo "bad luck"
+	elif [ $i == 7 ]; then
+		echo "good luck"
+	else
+		echo "Holberton School"
+	fi
+	i=$((i + 1))
+done
