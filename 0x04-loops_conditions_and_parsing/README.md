@@ -1,8 +1,23 @@
 ## :pencil2: # Loops, conditions and parsing
 
-This folder contains some useful scripts with basic Shell commands and topics like the use of while, until and for loops. Also, how to use  if, else, elif and case condition statements. How to use cut command and
-Short description of each file:
-+ 0-RSA_public_key.pub: Public SSH RSA key.
+This folder contains some useful scripts with basic Shell commands and topics like the use of while, until and for loops. Also, how to use  if, else, elif and case condition statements. How to use cut command and the comparison operators. 
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
++ [0-RSA_public_key.pub](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/0-RSA_public_key.pub): Public SSH RSA key.
 + 1-for_holberton_school: Bash script that displays Holberton School 10 times using the for loop.
 + 2-while_holberton_school: Bash script that displays Holberton School 10 times using the while loop.
 + 3-until_holberton_school: Bash script that displays Holberton School 10 times using the until loop.
@@ -15,5 +30,5 @@ Short description of each file:
 + 10-fizzbuzz: Bash script that displays numbers from 1 to 100. Displays FizzBuzz when the number is a multiple of 3 and 5. Displays Fizz when the number is multiple of 3. Displays Buzz when the number is a multiple of 5. Otherwise, displays the number.
 + 100-read_and_cut: Bash script that displays the content of the file /etc/passwd. Only display username, user id and home directory path for the user.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc1MzU1NDNdfQ==
+eyJoaXN0b3J5IjpbMTE4NjUwMjQ1NF19
 -->
