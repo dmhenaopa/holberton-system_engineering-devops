@@ -1,4 +1,4 @@
-## :pencil2: # Loops, conditions and parsing
+## :pencil2: Loops, conditions and parsing
 
 This folder contains some useful scripts with basic Shell commands and topics like the use of while, until and for loops. Also, how to use  if, else, elif and case condition statements. How to use cut command and the comparison operators. 
 
@@ -30,5 +30,5 @@ Here a short description of each script:
 + [10-fizzbuzz](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/10-fizzbuzz): Bash script that displays numbers from 1 to 100. Displays FizzBuzz when the number is a multiple of 3 and 5. Displays Fizz when the number is multiple of 3. Displays Buzz when the number is a multiple of 5. Otherwise, displays the number.
 + [100-read_and_cut](https://github.com/dmhenaopa/holberton-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/100-read_and_cut): Bash script that displays the content of the file /etc/passwd. Only display username, user id and home directory path for the user.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDQzMzY1XX0=
+eyJoaXN0b3J5IjpbNTQxMDYxNzA0XX0=
 -->
