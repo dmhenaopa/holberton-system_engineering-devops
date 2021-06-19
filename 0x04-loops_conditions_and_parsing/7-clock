@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script displays the time for 12 hours and 59 minutes
+
+hour=0
+max_hour=12
+minutes=1
+max_minutes=59
+while [ $hour -le $max_hour ]; do
+	echo "Hour: $hour"
+	while [ $minutes -le $max_minutes ]; do
+		echo "$minutes"
+		minutes=$((minutes + 1))
+	done
+	minutes=1
+	hour=$((hour + 1))
+done
