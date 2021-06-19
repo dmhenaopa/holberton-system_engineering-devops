@@ -11,3 +11,6 @@ Short description of each file:
 + 9-to_file_or_not_to_file: Bash script that gives you information about the holbertonschool file. Bash script checks if the file exists and print: If the file exists: holbertonschool file exists. If the file does not exist: holbertonschool file does not exist. If the file exists, print: if the file is empty: holbertonschool file is empty. If the file is not empty: holbertonschool file is not empty. If the file is a regular file: holbertonschool is a regular file. If the file is not a regular file: (nothing).
 + 10-fizzbuzz: Bash script that displays numbers from 1 to 100. Displays FizzBuzz when the number is a multiple of 3 and 5. Displays Fizz when the number is multiple of 3. Displays Buzz when the number is a multiple of 5. Otherwise, displays the number.
 + 100-read_and_cut: Bash script that displays the content of the file /etc/passwd. Only display username, user id and home directory path for the user.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzM1NzYwMjE0XX0=
+-->
