@@ -1,6 +1,6 @@
 ## :pencil2: # Loops, conditions and parsing
 
-This folder contains some useful scripts with basic Shell commands. 
+This folder contains some useful scripts with basic Shell commands and topics like the use of while, until and for loops. Also, how to use  if, else, elif and case condition statements. How to use cut command and
 Short description of each file:
 + 0-RSA_public_key.pub: Public SSH RSA key.
 + 1-for_holberton_school: Bash script that displays Holberton School 10 times using the for loop.
@@ -15,5 +15,5 @@ Short description of each file:
 + 10-fizzbuzz: Bash script that displays numbers from 1 to 100. Displays FizzBuzz when the number is a multiple of 3 and 5. Displays Fizz when the number is multiple of 3. Displays Buzz when the number is a multiple of 5. Otherwise, displays the number.
 + 100-read_and_cut: Bash script that displays the content of the file /etc/passwd. Only display username, user id and home directory path for the user.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTg1MzgwOV19
+eyJoaXN0b3J5IjpbLTE0NTc1MzU1NDNdfQ==
 -->
