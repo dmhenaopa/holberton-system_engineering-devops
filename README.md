@@ -6,6 +6,8 @@ In this repository we have some basic scripts to use in shell related with the u
  - [0x01-shell_permissions](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x01-shell_permissions)
  - [0x02-shell_redirections](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x02-shell_redirections)
  - [0x03-shell_variables_expansions](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x03-shell_variables_expansions)
+ - [0x04-loops_conditions_and_parsing](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing)
+ - [0x05-processes_and_signals](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x05-processes_and_signals)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMDE3NjIzOTddfQ==
