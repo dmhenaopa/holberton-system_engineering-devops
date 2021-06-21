@@ -1,3 +1,5 @@
+## :pencil2: Processes and signals
+This folder contains some useful scripts with basis Shell commands. Use of commands to obtain the process identification number PID
 A short description of each script or file in project:
 + 0-what-is-my-pid: A Bash script that displays its own PID.
 + 1-list_your_processes: A Bash script that displays a list of currently running processes. Show all processes, for all users, including those which might not have a TTY. Display in a user-oriented format. Show process hierarchy.
@@ -11,5 +13,5 @@ A short description of each script or file in project:
 + 100-process_and_pid_file: A Bash script that: Creates the file /var/run/holbertonscript.pid containing its PID. Displays To infinity and beyond indefinitely. Displays I hate the kill command when receiving a SIGTERM signal. Displays Y U no love me?! when receiving a SIGINT signal. Deletes the file /var/run/holbertonscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal.
 +
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTAzNDI4N119
+eyJoaXN0b3J5IjpbLTE5NjYyMjczNDJdfQ==
 -->
