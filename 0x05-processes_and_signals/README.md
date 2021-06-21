@@ -6,4 +6,5 @@ A short description of each script or file in project:
 + 4-to_infinity_and_beyond: Bash script that displays To infinity and beyond indefinitely. In between each iteration of the loop, add a sleep 2.
 + 5-dont_stop_me_now: A Bash script that stops 4-to_infinity_and_beyond process.
 + 6-stop_me_if_you_can: A Bash script that stops 4-to_infinity_and_beyond process.
++ 7-highlander: A Bash script that displays "To infinity and beyond" indefinitely, with a sleep 2 in between eahc iteration and when receiving a SIGTERM signal prints "I am invincible!!!".
 +
