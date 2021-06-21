@@ -10,3 +10,6 @@ A short description of each script or file in project:
 + 8-beheaded_process: A Bash script that kills the process 7-highlander.
 + 100-process_and_pid_file: A Bash script that: Creates the file /var/run/holbertonscript.pid containing its PID. Displays To infinity and beyond indefinitely. Displays I hate the kill command when receiving a SIGTERM signal. Displays Y U no love me?! when receiving a SIGINT signal. Deletes the file /var/run/holbertonscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal.
 +
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk5NTAzNDI4N119
+-->
