@@ -8,4 +8,5 @@ A short description of each script or file in project:
 + 6-stop_me_if_you_can: A Bash script that stops 4-to_infinity_and_beyond process.
 + 7-highlander: A Bash script that displays "To infinity and beyond" indefinitely, with a sleep 2 in between eahc iteration and when receiving a SIGTERM signal prints "I am invincible!!!".
 + 8-beheaded_process: A Bash script that kills the process 7-highlander.
++ 100-process_and_pid_file: A Bash script that: Creates the file /var/run/holbertonscript.pid containing its PID. Displays To infinity and beyond indefinitely. Displays I hate the kill command when receiving a SIGTERM signal. Displays Y U no love me?! when receiving a SIGINT signal. Deletes the file /var/run/holbertonscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal.
 +
