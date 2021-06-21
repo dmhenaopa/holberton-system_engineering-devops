@@ -5,4 +5,5 @@ A short description of each script or file in project:
 + 3-show_your_bash_pid_made_easy: A Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
 + 4-to_infinity_and_beyond: Bash script that displays To infinity and beyond indefinitely. In between each iteration of the loop, add a sleep 2.
 + 5-dont_stop_me_now: A Bash script that stops 4-to_infinity_and_beyond process.
++ 6-stop_me_if_you_can: A Bash script that stops 4-to_infinity_and_beyond process.
 +
