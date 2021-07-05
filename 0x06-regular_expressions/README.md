@@ -5,6 +5,10 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 | [abc] | A single character of a, b or c  |
 | [^abc] | A single character except a, b or c  |
 | [a-z] | A single character between a and z  |
+| [a-zA-Z] | A single character between a-z or A-Z  |
+| ^ | Start of line  |
+| $ | End of line |
+| . | Any single character |
 | [abc] | A single character of a, b or c  |
 
 
@@ -17,5 +21,5 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 + 6-phone_number.rb: Script that found the regular expression that exactly match a 10 digit phone number.
 + 7-OMG_WHY_ARE_YOU_SHOUTING.rb: Script that found the regular expression that exactly match capital letters.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjA1OTMxNF19
+eyJoaXN0b3J5IjpbLTY0Nzg4MDM1XX0=
 -->
