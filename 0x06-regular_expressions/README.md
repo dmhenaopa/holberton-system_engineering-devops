@@ -5,4 +5,5 @@ A short description of each script:
 + 3-repetition_token_2.rb: Script that found the regular expression that will match the cases: hbtn, hbttn, hbtttn, hbttttn... one or more t's between b and n.
 + 4-repetition_token_3.rb: Script that found the regular expression that will match the cases: hbn, hbtn, hbttn, hbtttn... 0 or more of any single character except the 'o' between the b and the n.
 + 5-beginning_and_end.rb: Script that found the regular expression that exactly match a string that starts with h ends with n and can have any single character in between.
++ 6-phone_number.rb: Script that found the regular expression that exactly match a 10 digit phone number.
 +
