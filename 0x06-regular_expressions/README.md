@@ -14,7 +14,10 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 | \d | Any digit |
 | \D | Any non-digit |
 | \w | Any letter, number, underscore |
-| \W | Any letter, number, underscore |
+| \W | Any non letter, non number, non underscore |
+| (...) | Everything enclosed |
+| (a \| b) | a or b |
+| \w | Zero o |
 
 + 0-simply_match_holberton.rb: Script that found a regular expression that match Holberton.
 + 1-repetition_token_0.rb: Script that found the regular expression that will match the cases: hbttn, hbtttn, hbttttn, hbtttttn... one or more repetitions of t.
@@ -25,5 +28,5 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 + 6-phone_number.rb: Script that found the regular expression that exactly match a 10 digit phone number.
 + 7-OMG_WHY_ARE_YOU_SHOUTING.rb: Script that found the regular expression that exactly match capital letters.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODk0NDUxOF19
+eyJoaXN0b3J5IjpbLTExMDkwNTc0MjJdfQ==
 -->
