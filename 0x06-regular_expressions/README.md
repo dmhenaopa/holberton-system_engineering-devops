@@ -26,6 +26,21 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 
 > [Taken from Rugular: a Ruby regular expression editor](https://rubular.com/)
 
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems. 
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
 + 0-simply_match_holberton.rb: Script that found a regular expression that match Holberton.
 + 1-repetition_token_0.rb: Script that found the regular expression that will match the cases: hbttn, hbtttn, hbttttn, hbtttttn... one or more repetitions of t.
 + 2-repetition_token_1.rb: Script that found the regular expression that will match the cases: htn, hbtn... 0 or 1 repetition of b between h and t.
@@ -35,5 +50,5 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 + 6-phone_number.rb: Script that found the regular expression that exactly match a 10 digit phone number.
 + 7-OMG_WHY_ARE_YOU_SHOUTING.rb: Script that found the regular expression that exactly match capital letters.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzAzNTQ2NF19
+eyJoaXN0b3J5IjpbMTMxOTMxOTYwM119
 -->
