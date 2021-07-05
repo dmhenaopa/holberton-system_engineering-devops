@@ -27,7 +27,7 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 > [Taken from Rugular: a Ruby regular expression editor](https://rubular.com/)
 
 ### Requirements:
-All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems. 
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.  Ruby: 1.9.3p484 (2013-11-22).
 
 ### Usage:
 Verify that the files have execution permissions before being used! **If not, use the following command:**
@@ -36,7 +36,7 @@ Verify that the files have execution permissions before being used! **If not, us
 
 In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
 
-    ./name_of_file ###To execute the file
+    ./name_of_file "string to analize" ###To execute the file
 
 ### Executable files:
 
@@ -50,5 +50,5 @@ Here a short description of each script:
 + 6-phone_number.rb: Script that found the regular expression that exactly match a 10 digit phone number.
 + 7-OMG_WHY_ARE_YOU_SHOUTING.rb: Script that found the regular expression that exactly match capital letters.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTMxOTYwM119
+eyJoaXN0b3J5IjpbLTEzNzI1NjQ3NzNdfQ==
 -->
