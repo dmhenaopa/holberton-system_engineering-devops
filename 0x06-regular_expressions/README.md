@@ -1,5 +1,10 @@
 ## :pencil2: # Regular expression - Regex
-This folder contains some useful Ruby scripts with basic usage of regular expressions. 
+This folder contains some useful Ruby scripts with basic usage of regular expressions or patterns. Some of the expressions used in this scripts follow the next patterns:
+| [abc] | A single character of a, b or c  |
+|--|--|
+|  |  |
+
+
 + 0-simply_match_holberton.rb: Script that found a regular expression that match Holberton.
 + 1-repetition_token_0.rb: Script that found the regular expression that will match the cases: hbttn, hbtttn, hbttttn, hbtttttn... one or more repetitions of t.
 + 2-repetition_token_1.rb: Script that found the regular expression that will match the cases: htn, hbtn... 0 or 1 repetition of b between h and t.
@@ -9,5 +14,5 @@ This folder contains some useful Ruby scripts with basic usage of regular expres
 + 6-phone_number.rb: Script that found the regular expression that exactly match a 10 digit phone number.
 + 7-OMG_WHY_ARE_YOU_SHOUTING.rb: Script that found the regular expression that exactly match capital letters.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxMDQxNjM2XX0=
+eyJoaXN0b3J5IjpbLTE0NDUxODkyMzldfQ==
 -->
