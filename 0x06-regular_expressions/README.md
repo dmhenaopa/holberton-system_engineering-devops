@@ -1,4 +1,4 @@
-## :pencil2: # Regular expression - Regex
+## :pencil2: Regular expression - Regex
 This folder contains some useful Ruby scripts with basic usage of regular expressions or patterns. Some of the expressions used in this scripts follow the next patterns:
 | Pattern | Significance |
 |--|--|
