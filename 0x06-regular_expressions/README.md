@@ -8,3 +8,6 @@ A short description of each script:
 + 6-phone_number.rb: Script that found the regular expression that exactly match a 10 digit phone number.
 + 7-OMG_WHY_ARE_YOU_SHOUTING.rb: Script that found the regular expression that exactly match capital letters.
 +
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4MzM4MDE4NTVdfQ==
+-->
