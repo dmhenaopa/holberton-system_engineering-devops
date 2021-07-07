@@ -10,6 +10,7 @@ In this repository we have some basic scripts to use in shell related with the u
  - [0x05-processes_and_signals](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x05-processes_and_signals)
  - [0x06-regular_expressions](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x06-regular_expressions)
  - [0x07-networking_basics](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x07-networking_basics)
+ - [0x08-networking_basics_2](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMDE3NjIzOTddfQ==
 -->
