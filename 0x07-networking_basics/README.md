@@ -1,5 +1,5 @@
-Short description of each document/## :pencil2: Networking basics 2
-This folder contains some useful scripts with basic commands  to change home IP and displays IPv4 IPs.
+## :pencil2: Networking basics 1
+This folder contains some useful scripts with basic commands  to display listening ports and pings an IP address. Also, some documents with answers about OSI model, LAN, WAN
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
 
@@ -22,5 +22,5 @@ Here a short description of each script:
 + 4-TCP_and_UDP_ports: Bash script that displays listening ports. Only shows listening sockets and shows the PID and name of the program to which each socket belongs.
 + 5-is_the_host_on_the_network: Script that pings an IP address passed as an argument. Accepts a string as an argument and ping the IP 5 times.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk4MTAxMzZdfQ==
+eyJoaXN0b3J5IjpbLTU5NDY2OTg4N119
 -->
