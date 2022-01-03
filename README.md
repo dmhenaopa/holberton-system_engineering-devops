@@ -12,6 +12,7 @@ In this repository we have some basic scripts to use in shell related with the u
  - [0x07-networking_basics](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x07-networking_basics)
  - [0x08-networking_basics_2](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2)
  - [0x0A-configuration_management](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2)
+ - [0x0B-ssh](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x0B-ssh)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMDE3NjIzOTddfQ==
 -->
