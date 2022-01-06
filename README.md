@@ -14,6 +14,7 @@ In this repository we have some basic scripts to use in shell related with the u
  - [0x0A-configuration_management](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2)
  - [0x0B-ssh](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x0B-ssh)
  - [0x0D-web_stack_debugging_0](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0)
+ - [0x0C-web_server](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x0C-web_server)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMDE3NjIzOTddfQ==
 -->
