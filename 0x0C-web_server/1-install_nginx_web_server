@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Script to install nginx web server
+sudo apt-get update
+sudo apt-get -y install nginx #Install Nginx
+service nginx start #Start the web server
+echo "Hello World" > /var/www/html/index.html
