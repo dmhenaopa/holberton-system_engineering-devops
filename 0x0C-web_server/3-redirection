@@ -6,4 +6,4 @@ sudo service nginx start #Start the web server
 echo "Hello World" > /var/www/html/index.nginx-debian.html
 redirect_to="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
 sed -i "s/server_name _;/$redirect_to/" /etc/nginx/sites-available/default
-sudo service nginx reload #Reload with new configuration
+sudo service nginx restart #Restart with new configuration
