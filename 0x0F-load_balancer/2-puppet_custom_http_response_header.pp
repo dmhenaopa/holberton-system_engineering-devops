@@ -9,5 +9,5 @@ exec { 'sed':
 }
 
 exec { 'restart':
-  command => 'sudo service nginx restart',
+  command => '/usr/sbin/service nginx restart',
 }
