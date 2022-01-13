@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Fix Ubuntu container from listening on port 80
 sudo rm /etc/nginx/sites-available/default
+sudo rm /etc/nginx/sites-enabled/default
 to_replace="listen 8080 default_server;"
 replace="listen 80 default_server;"
 sed -i "s/$to_replace/$replace/" /etc/nginx/sites-enabled/default
