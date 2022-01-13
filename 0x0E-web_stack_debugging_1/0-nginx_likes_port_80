@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Fix Ubuntu container from listening on port 80
-sudo pkill -f nginx & wait $!
+sudo pkill -f nginx & wait "$!"
 sudo service nginx start
 to_replace="listen 8080 default_server;"
 replace="listen 80 default_server;"
