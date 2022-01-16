@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# Script that will display information about subdomains
+
+# Variables
+domain=$1
+subdomain=$2
+subdomains_array1=("www" "lb-01")
+subdomains_array2=("web-01" "web-02")
+
+if [ -z "$subdomain" ]; then
+	for sub1 in ${subdomains_array1[*]}; do
+		new_subdomain1="$sub1.$domain"
+        	record_type1=$(dig "$new_subdomain1" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f4)
+        	destination1=$(dig "$new_subdomain1" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f5)
+		echo "The subdomain $sub1 is a $record_type1 record and points to $destination1"
+	done
+
+        for sub2 in ${subdomains_array2[*]}; do
+                new_subdomain2="$sub2.$domain"
+                record_type2=$(dig "$new_subdomain2" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f3)
+                destination2=$(dig "$new_subdomain2" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f4)
+                echo "The subdomain $sub2 is a $record_type2 record and points to $destination2"
+        done
+
+else
+        if [[ "$subdomain" = "www" || "$subdomain" == "lb-01" ]]; then
+		new_subdomain="$subdomain.$domain"
+		record_type=$(dig "$new_subdomain" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f4)
+		destination=$(dig "$new_subdomain" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f5)
+		echo "The subdomain $subdomain is a $record_type record and points to $destination"
+	else
+		new_subdomain="$subdomain.$domain"
+		record_type=$(dig "$new_subdomain" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f3)
+		destination=$(dig "$new_subdomain" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | cut -f4)
+		echo "The subdomain $subdomain is a $record_type record and points to $destination"
+	fi
+fi
