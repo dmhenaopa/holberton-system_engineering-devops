@@ -17,6 +17,7 @@ In this repository we have some basic scripts to use in shell related with the u
  - [0x0C-web_server](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x0C-web_server)
  - [0x0F-load_balancer](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x0F-load_balancer)
  - [0x0E-web_stack_debugging_1](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x0E-web_stack_debugging_1)
+ - [0x10-https_ssl](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x10-https_ssl)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMDE3NjIzOTddfQ==
 -->
