@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Create a custom HTTP header response
 exec { 'update':
   command  => 'sudo apt-get update',
@@ -10,7 +11,7 @@ exec { 'nginx':
 }
 
 exec { 'header':
-  command  => 'sed -i "s/server_name _;/server_name _;\n\tadd_header X-Served-By \$HOSTNAME;/" /etc/nginx/sites-available/default',
+  command  => 'sudo sed -i "s/server_name _;/server_name _;\n\tadd_header X-Served-By \$HOSTNAME;/" /etc/nginx/sites-available/default',
   provider => shell,
 }
 
