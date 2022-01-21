@@ -14,7 +14,7 @@ exec { 'config':
 }
 
 exec { 'header':
-  command  => 'sed -i "22i \tadd_header X-Served-By $HOSTNAME always;" /etc/nginx/nginx.conf',
+  command  => 'sed -i "22i \tadd_header X-Served-By "$HOSTNAME" always;" /etc/nginx/nginx.conf',
   provider => 'shell',
 }
 
