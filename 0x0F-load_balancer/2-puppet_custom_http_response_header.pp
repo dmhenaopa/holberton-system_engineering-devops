@@ -10,7 +10,7 @@ exec { 'nginx':
 }
 
 exec { 'header':
-  command  => 'sudo sed -i "s/server_name _;/server_name _;\n\tadd_header X-Served-By "\$HOSTNAME" always;/" /etc/nginx/sites-available/default',
+  command  => 'sed -i "s/server_name _;/server_name _;\n\tadd_header X-Served-By "\$HOSTNAME" always;/" /etc/nginx/sites-available/default',
   provider => shell,
 }
 
