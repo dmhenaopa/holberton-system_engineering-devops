@@ -1,5 +1,14 @@
 # Configure an Nginx server
-exec { 'install':
-  command  => 'sudo apt-get update; sudo apt-get -y install nginx; service nginx start; echo "Hello World" | sudo tee /var/www/html/index.html; redirect_to="server_name \/redirect_me;\n\treturn 301 https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4; sed -i "s/server_name _;/$redirect_to/" /etc/nginx/sites-available/default; service nginx restart',
+package { 'nginx':
+  ensure => 'installed',
+}
+
+exec { 'config':
+  command  => 'sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;/" /etc/nginx/sites-available/default',
+  provider => 'shell',
+}
+
+exec { 'start':
+  command  => 'sudo service nginx restart',
   provider => 'shell',
 }
