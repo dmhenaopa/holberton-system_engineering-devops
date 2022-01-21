@@ -19,6 +19,6 @@ exec { 'header':
 }
 
 exec { 'start':
-  command  => 'sudo service nginx restart',
+  command  => 'sudo service nginx start',
   provider => 'shell',
 }
