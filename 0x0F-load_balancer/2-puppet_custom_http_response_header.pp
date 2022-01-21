@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Create a custom HTTP header response
 exec { 'update':
   command  => 'apt-get update',
