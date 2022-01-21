@@ -1,11 +1,12 @@
 # Create a custom HTTP header response
 exec { 'update':
-  command => 'sudo apt-get update',
+  command  => 'sudo apt-get update',
   provider => 'shell',
 }
 
-package { 'nginx':
-  ensure => 'installed',
+exec { 'nginx':
+  command  => 'sudo apt-get -y install nginx',
+  provider => 'shell',
 }
 
 exec { 'config':
