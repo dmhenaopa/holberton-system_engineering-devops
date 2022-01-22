@@ -1,5 +1,5 @@
 # Manifest to set up client SSH configuration
 exec { 'change authentication':
-  command  => 'sed -i "s/#   PasswordAuthentication yes/PasswordAuthentication no\nIdentityFile ~/.ssh/school/" /etc/ssh/ssh_config',
+  command  => 'echo "    PasswordAuthentication no\n    IdentityFile ~/.ssh/school/" >> /etc/ssh/ssh_config',
   provider => 'shell'
 }
