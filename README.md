@@ -20,6 +20,7 @@ In this repository we have some basic scripts to use in shell related with the u
  - [0x10-https_ssl](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x10-https_ssl)
  - [0x13-firewall](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x13-firewall)
  - [0x12-web_stack_debugging_2](https://github.com/dmhenaopa/holberton-system_engineering-devops/tree/master/0x12-web_stack_debugging_2)
+ - [0x14-mysql](https://github.com/dmhenaopa/holberton-system_eng    ineering-devops/tree/master/0x14-mysql)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMDE3NjIzOTddfQ==
 -->
