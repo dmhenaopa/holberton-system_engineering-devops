@@ -2,6 +2,6 @@
 # Short and sweet - configuration of nginx
 sudo pkill apache2
 sudo sed -i "s/80/8080/g" /etc/nginx/sites-available/default
-sudo chown -R nginx:nginx /etc/nginx
-sudo chmod -R 750 /etc/nginx.conf
+sudo chown nginx:nginx /etc/nginx/nginx.conf
+sudo chmod 750 /etc/nginx/nginx.conf
 sudo -u nginx service nginx restart
