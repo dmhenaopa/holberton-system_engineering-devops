@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Bash script that generates a MySQL dump
+mysqldump -u root -p "$1" --all-databases > backup.sql
+now=$(date + "%d-%m-%Y")
+tar -czf "$now".tar.gz backup.sql
