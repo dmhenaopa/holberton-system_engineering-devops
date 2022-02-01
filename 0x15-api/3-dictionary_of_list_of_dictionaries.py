@@ -38,7 +38,7 @@ if __name__ == '__main__':
                     json_list.append(inner_dict)
             json_dict.update({user_id_param: json_list})
 
-            json_string = json.dumps(json_dict)
-            json_file = open('todo_all_employees.json', mode='a')
-            json_file.write(json_string)
-        json_file.close()
+        json_string = json.dumps(json_dict)
+        json_file = open('todo_all_employees.json', mode='a')
+        json_file.write(json_string)
+    json_file.close()
