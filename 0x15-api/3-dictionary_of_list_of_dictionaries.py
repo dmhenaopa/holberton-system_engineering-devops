@@ -31,9 +31,9 @@ if __name__ == '__main__':
                     completed_status = element.get('completed')
                     task_title = element.get('title')
 
-                    inner_dict = {"task": task_title,
-                                  "completed": completed_status,
-                                  "username": username}
+                    inner_dict = {"username": username,
+                                  "task": task_title,
+                                  "completed": completed_status}
 
                     json_list.append(inner_dict)
             json_dict.update({user_id_param: json_list})
