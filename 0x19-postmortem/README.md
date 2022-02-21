@@ -1,6 +1,7 @@
 ## WordPress website outage incident report
 
-<div class="tenor-gif-embed" data-postid="15379714" data-share-method="host" data-aspect-ratio="1.79775" data-width="100%"><a href="https://tenor.com/view/everything-is-fine-dog-fire-burning-nothing-wrong-gif-15379714">Everything Is Fine Dog GIF</a>from <a href="https://tenor.com/search/everything+is+fine-gifs">Everything Is Fine GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+![everything-is-fine-dog](https://user-images.githubusercontent.com/77861287/154872965-afafebe6-d813-4a0f-9866-31362ad133f4.gif)
+
 Gif taken from: [junichols87](https://tenor.com/es/ver/everything-is-fine-dog-fire-burning-nothing-wrong-gif-15379714).
 
 ### :memo: Issue summary
