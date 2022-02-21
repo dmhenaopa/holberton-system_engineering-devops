@@ -1,5 +1,8 @@
 ## WordPress website outage incident report
 
+![everything-is-fine-dog](https://user-images.githubusercontent.com/77861287/154872965-afafebe6-d813-4a0f-9866-31362ad133f4.gif)
+(From: https://tenor.com/es/ver/everything-is-fine-dog-fire-burning-nothing-wrong-gif-15379714)
+
 ### :memo: Issue summary
 
 On 02-15-2022, our WordPress website service was interrupted for more than a half-hour, from 7:00 am to 7:30 am (UTC−05:00). All the services offered by our website were affected. As a result of the problem, our website could not be accessed due to an internal server error (501).
