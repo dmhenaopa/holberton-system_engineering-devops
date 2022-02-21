@@ -1,14 +1,17 @@
-## WordPress website outage incident report
+# 🚨 WordPress website outage incident report
 
-![everything-is-fine-dog](https://user-images.githubusercontent.com/77861287/154872965-afafebe6-d813-4a0f-9866-31362ad133f4.gif)
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/77861287/154872965-afafebe6-d813-4a0f-9866-31362ad133f4.gif>
+</p>
 
-Gif taken from: [junichols87](https://tenor.com/es/ver/everything-is-fine-dog-fire-burning-nothing-wrong-gif-15379714).
+<p align="center">Gif taken from: <a href="https://tenor.com/es/ver/everything-is-fine-dog-fire-burning-nothing-wrong-gif-15379714">junichols87</a></p>
 
-### :memo: Issue summary
+
+## :memo:  Issue summary
 
 On 02-15-2022, our WordPress website service was interrupted for more than a half-hour, from 7:00 am to 7:30 am (UTC−05:00). All the services offered by our website were affected. As a result of the problem, our website could not be accessed due to an internal server error (501).
 
-### :globe_with_meridians: Timeline (UTC−05:00)
+## :globe_with_meridians:  Timeline (UTC−05:00)
 
 - **7:00 am:** Error 501 was reported for the first time when trying to access the web page.
 - **7:05 am:** The Apache server is restarted. It is verified that the 501 error continues to be generated.
@@ -20,7 +23,7 @@ On 02-15-2022, our WordPress website service was interrupted for more than a hal
 - **7:27 am:** The error in the file is corrected. The server is restarted.
 - **7:30 am:** The tests are run. The content of the page in WordPress is now displayed correctly.
 
-### :construction: Root cause and resolution
+## :construction:  Root cause and resolution
 The web service offered in WordPress runs on a LAMP-type software stack (Linux, Apache, MySQL, and PHP). During a scheduled exercise of maintenance and revision of the configuration files of the WordPress web page, the inconvenience arose. When saving the changes made in the maintenance, in the configuration files, and in an unintentional way, a typographical error was generated in the configuration file located in the path `/var/www/html/wp-settings.php`. 
 
 This prevented the correct execution of the configuration files, generating a cascade of errors including:
@@ -32,7 +35,7 @@ The system could not access the files due to a mistake in typing the file extens
 
 The only solution was to modify the configuration file `/var/www/html/wp-settings.php` again, modifying the value of the variable `${APACHE_LOG_DIR}`. Fixed file extension from phpp to php (class-wp-locale.php). Restarting the Apache server after the modifications caused the WordPress website to load properly.
 
-### :goal_net: Corrective and preventive measures
+## :goal_net:  Corrective and preventive measures
 
  - Any modification that is made, maintenance, incorporation of new
    functionalities..., must be evaluated and tested locally.
